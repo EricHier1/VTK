@@ -1,0 +1,13 @@
+FROM centos:7
+# centos-release-scl and epel-release are repositories that are also being installed
+RUN \
+        yum update -y && \
+        yum install -y centos-release-scl epel-release && \
+        yum clean all -y
+# best practice: installation of libraries should be put in alphabetical order to make it easier to find in the lists
+RUN \
+        yum install -y \
+                curl \
+		gcc \
+		wget \
+                which                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
