@@ -1,0 +1,26 @@
+//example JSON file
+
+{
+    "firstName": "Clark",
+    "lastName": "Kent",
+    "gender": "Male",
+    "age": 100,
+    "superhero name": "Superman",
+    "address": {
+        "streetAddress": "1234 Example land",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "98765"
+    },
+
+    "powers": [
+        "eye lasers",
+        "x-ray vision",
+        "superhuman strength"
+    ],
+
+    "phoneNumbers": [
+        { "type": "home", "number": "1234567899" }
+    ]
+    
+}
